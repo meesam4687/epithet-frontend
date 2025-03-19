@@ -32,7 +32,7 @@ function Chatbox() {
       responseChatBubble.appendChild(responseChatBubbleP);
       messageContainer.appendChild(responseChatBubble);
       document.querySelector('.messageContainer').scrollTo(0, document.querySelector('.messageContainer').scrollHeight);
-      fetch('http://127.0.0.1:5000/generate', {
+      fetch('https://meesam4687-epithet.hf.space/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
