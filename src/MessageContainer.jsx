@@ -3,7 +3,7 @@ function MessageContainer() {
   return (
     <div className="messageContainer">
       <div className="messageContainer-spacer"></div>
-      <ChatBubble message="Hello, my name is Epithet (bear with the slow response times please, i am running the ai on free tier backends)" alignment="Left"/>
+      <ChatBubble message="Hello, my name is Epithet (bear with the slow response times please, I am running the ai on free tier backends. Also note that this is a preview, context window is shared, it WILL give unexpected responses)" alignment="Left"/>
     </div>
   );
 }
