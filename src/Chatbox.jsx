@@ -38,7 +38,7 @@ function Chatbox() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          userID: '4687',
+          userID: '46870',
           prompt: inputValue,
         }),
       })
