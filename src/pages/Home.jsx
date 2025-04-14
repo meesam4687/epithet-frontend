@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react"
 
 let session = localStorage.getItem('session')
 if (!session) {
-  session = {id: Date.now()};
+  session = Date.now();
   localStorage.setItem('session', session);
 }
 
