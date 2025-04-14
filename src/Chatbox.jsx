@@ -38,7 +38,7 @@ function Chatbox() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          userID: '46870',
+          userID: localStorage.getItem('session').id,
           prompt: inputValue,
         }),
       })
