@@ -6,7 +6,7 @@ function Login() {
         const username = document.getElementById('username-epithet').value;
         const password = document.getElementById('password-epithet').value;
 
-        fetch('http://127.0.0.1:1010/login', {
+        fetch('https://meesam4687-epithet.hf.space/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

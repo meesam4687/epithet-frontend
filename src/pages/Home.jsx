@@ -8,7 +8,7 @@ function Home() {
     window.location.href = '/login';
   }
 
-  fetch('http://127.0.0.1:1010/auth', {
+  fetch('https://meesam4687-epithet.hf.space/auth', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

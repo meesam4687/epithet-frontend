@@ -12,7 +12,7 @@ function SignUp() {
                 return;
             }
 
-            fetch('http://127.0.0.1:1010/signup', {
+            fetch('https://meesam4687-epithet.hf.space/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -29,7 +29,7 @@ function SignUp() {
                     return response.json();
                 })
                 .then(data => {
-                    fetch('http://127.0.0.1:1010/login', {
+                    fetch('https://meesam4687-epithet.hf.space/login', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
