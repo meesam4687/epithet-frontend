@@ -1,4 +1,7 @@
 function Login() {
+    if(localStorage.getItem('token')){
+        window.location.href = '/';
+    }
     function handleLogin() {
         const username = document.getElementById('username-epithet').value;
         const password = document.getElementById('password-epithet').value;
@@ -20,6 +23,7 @@ function Login() {
                 if(data.status === 'ok'){
                     localStorage.setItem('token', data.token);
                     localStorage.setItem('username', username);
+                    localStorage.setItem('password', password);
                     window.location.href = '/';
                 }
                 else{

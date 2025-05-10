@@ -32,13 +32,15 @@ function Chatbox() {
       responseChatBubble.appendChild(responseChatBubbleP);
       messageContainer.appendChild(responseChatBubble);
       document.querySelector('.messageContainer').scrollTo(0, document.querySelector('.messageContainer').scrollHeight);
-      fetch('https://meesam4687-epithet.hf.space/generate', {
+      fetch('http://127.0.0.1:1010/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          userID: localStorage.getItem('session'),
+          username: localStorage.getItem('username'),
+          token: localStorage.getItem('token'),
+          password: localStorage.getItem('password'),
           prompt: inputValue,
         }),
       })
