@@ -333,4 +333,11 @@ body {
   .chatBubbleRight p {
     max-width: 12rem;
   }
+  .loginBox{
+    width: 22rem;
+  }
+  .inputField,
+  .inputField input{
+    width: 18.9rem;
+  }
 }
