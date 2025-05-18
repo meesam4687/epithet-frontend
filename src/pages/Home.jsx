@@ -8,7 +8,7 @@ async function Home() {
     window.location.href = '/login';
   }
 
-  await fetch('https://meesam4687-epithet.hf.space/auth', {
+  fetch('https://meesam4687-epithet.hf.space/auth', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
