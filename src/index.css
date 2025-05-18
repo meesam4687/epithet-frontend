@@ -304,11 +304,11 @@ body {
     color: white;
     border-radius: 0.5rem;
     padding: 1rem;
-    animation-name: showup;
+    animation-name: showup2;
     animation-duration: 4.3s;
 
 }
-@keyframes showup {
+@keyframes showup2 {
   0% {
     opacity: 0;
     transform: translate(-50%, -90%);
