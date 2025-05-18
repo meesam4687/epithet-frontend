@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-  background-color: #24273a;
+  background-color: #14151f;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +41,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #494d64;
+  background-color: #303344;
   padding: 0.7rem;
   border-radius: 1rem;
   transition-duration: 300ms;
@@ -64,7 +64,7 @@ body {
 }
 
 .chatbox {
-  background-color: #24273a;
+  background-color: #14151f;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,7 +87,7 @@ body {
 .chatInput {
   margin-left: 1rem;
   border: none;
-  background: #24273a;
+  background: #14151f;
   width: 71vw;
   height: 5rem;
   font-size: 1rem;
@@ -108,7 +108,7 @@ body {
 .sendButton {
   margin-right: 1rem;
   padding: 1rem;
-  background: #494d64;
+  background: #303344;
   border-radius: 1rem;
   transition-duration: 300ms;
   display: flex;
@@ -129,7 +129,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 71vh;
-  background-color: #292c40;
+  background-color: #1b1d2a;
   border-radius: 1rem;
   max-width: 85rem;
   overflow: auto;
@@ -327,4 +327,10 @@ body {
 }
 .toast-message{
   color: black;
+}
+@media (max-width: 600px) {
+  .chatBubbleLeft p,
+  .chatBubbleRight p {
+    max-width: 12rem;
+  }
 }
