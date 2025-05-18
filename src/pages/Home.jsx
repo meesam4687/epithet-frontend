@@ -3,7 +3,7 @@ import Chatbox from '../Chatbox'
 import MessageContainer from '../MessageContainer'
 import { Analytics } from "@vercel/analytics/react"
 
-async function Home() {
+function Home() {
   if (!localStorage.getItem('token')) {
     window.location.href = '/login';
   }
