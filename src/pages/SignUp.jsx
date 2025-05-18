@@ -71,10 +71,10 @@ function SignUp() {
                 <h1>Sign Up</h1>
                 <div className="loginForm">
                     <div className="inputField">
-                        <input type="text" id="username-epithet" name="username-epithet" placeholder="Username..." required />
+                        <input type="text" id="username-epithet" name="username-epithet-sup" placeholder="Username..." required />
                     </div>
                     <div className="inputField">
-                        <input type="password" id="password-epithet" name="password-epithet" placeholder="Password..." required />
+                        <input type="password" id="password-epithet" name="password-epithet-sup" placeholder="Password..." required />
                     </div>
                     <button className="clickable" type="submit" onClick={callSignup}>Sign Up</button>
                 </div>

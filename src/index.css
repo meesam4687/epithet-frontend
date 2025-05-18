@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  background-color: #181926;
+  background-color: #0f1018;
 }
 
 .main {
@@ -231,7 +231,7 @@ body {
 }
 
 .loginBox {
-  background-color: #24273a;
+  background-color: #171923;
   display: flex;
   justify-content: center;
   align-items: center;

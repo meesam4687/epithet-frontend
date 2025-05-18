@@ -46,6 +46,9 @@ function Login() {
                         <input type="password" id="password-epithet" name="password-epithet" placeholder="Password..." required />
                     </div>
                     <button className="clickable" type="submit" onClick={handleLogin}>Login</button>
+                    <div className="loginText">
+                        <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+                    </div>
                 </div>
             </div>
         </div>
