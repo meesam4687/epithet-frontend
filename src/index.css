@@ -292,3 +292,39 @@ body {
 .loginBox button:active{
   background: #292c3c;
 }
+.loadingAnim{
+  scale: 0.8;
+}
+.toast{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(220, 146, 146);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    animation-name: showup;
+    animation-duration: 4.3s;
+
+}
+@keyframes showup {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -90%);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+}
+.toast-message{
+  color: black;
+}
